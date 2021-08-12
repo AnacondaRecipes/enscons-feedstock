@@ -15,6 +15,7 @@ build:
   script:
     - scons
     - {{ PYTHON }} -m pip install dist/*.whl
+  noarch: python
 
 requirements:
   host:
