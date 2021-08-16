@@ -52,3 +52,7 @@ about:
   summary: Tools for building Python packages with SCons. Experimental.
   license: MIT
   doc_url: https://github.com/dholth/enscons/blob/master/README.rst
+
+extra:
+  recipe-maintainers:
+    - dholth
