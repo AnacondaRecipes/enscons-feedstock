@@ -13,6 +13,8 @@ source:
 build:
   number: 0
   script:
+  # enscons builds itself, without setuptools,
+  # so 'pip install .' doesn't appear to work well.
     - scons
     - {{ PYTHON }} -m pip install dist/*.whl
   noarch: python
@@ -47,6 +49,6 @@ test:
 
 about:
   home: https://github.com/dholth/enscons
-  summary: Tools for building Python packages with SCons
+  summary: Tools for building Python packages with SCons. Experimental.
   license: MIT
   doc_url: https://github.com/dholth/enscons/blob/master/README.rst
