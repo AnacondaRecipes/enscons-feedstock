@@ -1,5 +1,5 @@
 {% set name = "enscons" %}
-{% set version = "0.27.0" %}
+{% set version = "0.28.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/enscons-{{ version }}.tar.gz
-  sha256: 54d60e63d339ed911ddbd264f9cf00f4a5389759902f348687cb3f13031349fd
+  sha256: a5d78e7cb367e336cd020743be2fae984293b0c573d8864c750d984635468a93
 
 build:
   number: 0
