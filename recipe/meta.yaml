@@ -29,6 +29,7 @@ requirements:
     - scons >=3.0.5
     - setuptools
     - wheel
+    - pip
   run:
     - attrs
     - editables  # [py>30]
